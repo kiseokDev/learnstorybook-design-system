@@ -1,7 +1,7 @@
 {
-  "name": "learnstorybook-design-system-template",
+  "name": "@dev.leekiseok/elice-storybook",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
@@ -10,7 +10,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "rollup -c --bundleConfigAsCjs",
+    "build-storybook-docs": "build-storybook  --docs",
+    "build": "cross-env BABEL_ENV=production babel src -d dist",
     "watch": "rollup --watch -c --bundleConfigAsCjs",
     "clean": "rimraf ./dist",
     "prebuild": "yarn clean",
@@ -33,6 +34,7 @@
     "@rollup/plugin-commonjs": "^24.1.0",
     "@rollup/plugin-node-resolve": "^15.0.2",
     "@rollup/plugin-terser": "^0.4.3",
+    "@storybook/addon-a11y": "^7.5.3",
     "@storybook/addon-essentials": "^7.5.3",
     "@storybook/addon-interactions": "^7.5.3",
     "@storybook/addon-links": "^7.5.3",
@@ -43,7 +45,7 @@
     "@storybook/testing-library": "^0.2.2",
     "@testing-library/react": "^14.1.0",
     "@vitejs/plugin-react": "^3.1.0",
-    "auto": "^10.3.0",
+    "auto": "^11.0.4",
     "boxen": "^5.0.1",
     "chromatic": "^9.0.0",
     "cross-env": "^7.0.3",
@@ -83,5 +85,8 @@
     "jackspeak": "2.1.1"
   },
   "readme": "ERROR: No README data found!",
-  "_id": "learnstorybook-design-system-template@0.1.0"
+  "_id": "learnstorybook-design-system-template@0.1.0",
+  "description": "test Storybook design systems for elice products",
+  "repository": "git@github.com:kiseokDev/learnstorybook-design-system.git",
+  "author": "kiseokDev <dev.leekiseok@gmail.com>"
 }

@@ -19,6 +19,7 @@ function ButtonWrapper(props) {
 export default {
   title: 'Design System/Button',
   component: Button,
+  tags: ['autodocs'],
 };
 
 export const AllButtons = {

@@ -13,6 +13,12 @@
       "@babel/preset-react",
       { "runtime": "automatic", "importSource": "@emotion/react" }
     ]
+    // [
+    //   "react-app",
+    //   {
+    //     "absoluteRuntime": false
+    //   }
+    // ]
   ],
   "plugins": ["@emotion/babel-plugin"]
 }
