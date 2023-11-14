@@ -51,11 +51,9 @@ const StyledButton = styled.button`
   margin: 0;
   background: transparent;
 
-  /* border: 0;
+  border: 0;
   font-size: ${(props) =>
-    props.size === SIZES.SMALL ? typography.size.s1 : typography.size.s2}px; */
-  border: 15px solid red;
-  font-size: 20px;
+    props.size === SIZES.SMALL ? typography.size.s1 : typography.size.s2}px;
   font-weight: ${typography.weight.extrabold};
   line-height: 1;
 
