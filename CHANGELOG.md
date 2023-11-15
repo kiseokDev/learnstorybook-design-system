@@ -1,3 +1,15 @@
+# v0.1.7 (Wed Nov 15 2023)
+
+#### 🐛 Bug Fix
+
+- Create avatar list component [#4](https://github.com/kiseokDev/learnstorybook-design-system/pull/4) ([@kiseokDev](https://github.com/kiseokDev))
+
+#### Authors: 1
+
+- Kiseok Lee ([@kiseokDev](https://github.com/kiseokDev))
+
+---
+
 # v0.1.1 (Tue Nov 14 2023)
 
 #### ⚠️ Pushed to `main`
