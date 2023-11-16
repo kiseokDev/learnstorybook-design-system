@@ -2,7 +2,7 @@ import { typography } from '../../shared/styles';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-const Button = styled.button`
+const CustomButton = styled.button`
   /* 폰트 & 텍스트 */
   font-family: ${typography.type.primary};
   font-weight: 600;
@@ -25,16 +25,6 @@ const Button = styled.button`
   background-color: ${(props) =>
     props.type === 'primary' ? '#F8F9FA' : '#6700e6'};
   color: ${(props) => (props.type === 'primary' ? '#191F28' : '#FFFFFF')};
-
-  /* Other */
-  cursor: pointer;
-  white-space: normal;
-  vertical-align: middle;
-
-  transition: filter 0.5s ease;
-  &:hover {
-    filter: brightness(80%);
-  }
 
   font-size: ${(props) => {
     switch (props.size) {
@@ -60,6 +50,17 @@ const Button = styled.button`
         return '6px 16px';
     }
   }};
+
+  /* Other */
+  cursor: pointer;
+  white-space: normal;
+  vertical-align: middle;
+
+  transition: filter 0.5s ease;
+  &:hover {
+    filter: brightness(80%);
+  }
+
   /* ... 나머지 ... */
 `;
 
@@ -68,9 +69,9 @@ const Button = styled.button`
  */
 export const CustomEliceButton = ({ type, size, children }) => {
   return (
-    <Button type={type} size={size}>
+    <CustomButton type={type} size={size}>
       {children}
-    </Button>
+    </CustomButton>
   );
 };
 CustomEliceButton.defaultProps = {
