@@ -8,10 +8,11 @@
   Chromatic's Design Systems for Developers tutorial template
 </h1>
 
-[design-system npm package를 사용한 web](https://web-app-using-external-design-system-vv97xolo8-kiseokdev.vercel.app/)
+[Product Level Web](https://web-app-using-external-design-system-vv97xolo8-kiseokdev.vercel.app/)
 
-[협업 동료 및 디자이너와 함께 확인할 수 storyBook 배포 
-](https://6552e91ed69dbda616e90d9d-uotihsxrwd.chromatic.com/?path=/docs/example-customelicebutton--docs)
+[npmjs 패키지 배포](https://www.npmjs.com/package/@dev.leekiseok/elice-storybook)
+
+[협업 동료 및 디자이너와 함께 확인할 수 있도록 storyBook 배포](https://6552e91ed69dbda616e90d9d-uotihsxrwd.chromatic.com/?path=/docs/example-customelicebutton--docs)
 
 [UI Test를 위한 Chormatic 배포 ](https://www.chromatic.com/build?appId=6552e91ed69dbda616e90d9d&number=17)
 
@@ -44,7 +45,7 @@ This template ships with the main React configuration files you'll need to get u
 
     Open the `learnstorybook-design-system` directory in your code editor of choice and building your first component!
 
-## 🔎 What's inside?
+## 🔎 폴더구조
 
 A quick look at the top-level files and directories included with this template.
 
@@ -62,36 +63,26 @@ A quick look at the top-level files and directories included with this template.
     ├── yarn.lock
     └── README.md
 
-1.  **`node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages).
+1. **`node_modules`**: 이 디렉토리에는 프로젝트가 의존하는 모든 코드 모듈(예: npm 패키지)이 포함되어 있습니다.
 
-2.  **`src`**: This directory will contain all of the code related to what you will see on your application.
+2. **`src`**: 이 디렉토리에는 애플리케이션에서 볼 수 있는 모든 코드가 포함됩니다.
 
-3.  **`.babelrc.json`**: This file tells babel which presets and plugins to use when transforming your code.
+3. **`.babelrc.json`**: 이 파일은 코드 변환 시 babel이 사용할 프리셋과 플러그인을 지정합니다.
 
-4.  **`.gitignore`**: This file tells git which files it should not track or maintain during the development process of your project.
+4. **`.gitignore`**: 이 파일은 git에게 프로젝트 개발 과정 중 추적하거나 유지 관리하지 말아야 할 파일을 알려줍니다.
 
-5.  **`.prettierignore`**: This file tells prettier which files it should not format.
+5. **`.prettierignore`**: 이 파일은 prettier에게 포맷하지 말아야 할 파일을 알려줍니다.
 
-6.  **`.prettierrc`**: This file tells prettier which rules to use when formatting your code.
+6. **`.prettierrc`**: 이 파일은 코드 포맷팅 시 prettier가 사용할 규칙을 지정합니다.
 
-7.  **`LICENSE`**: The template is licensed under the MIT licence.
+7. **`LICENSE`**: 이 템플릿은 MIT 라이선스 하에 라이선스가 부여됩니다.
 
-8.  **`package.json`**: Standard manifest file for Node.js projects, which typically includes project specific metadata (such as the project's name, the author among other information). It's based on this file that npm will know which packages are necessary to the project.
+8. **`package.json`**: Node.js 프로젝트를 위한 표준 매니페스트 파일로, 프로젝트의 이름, 저자 등 프로젝트 특정 메타데이터가 일반적으로 포함됩니다. npm은 이 파일을 기반으로 프로젝트에 필요한 패키지를 알 수 있습니다.
 
-9.  **`rollup.config.mjs`**: This file tells rollup which plugins to use when bundling your code.
+9. **`rollup.config.mjs`**: 이 파일은 코드 번들링 시 rollup이 사용할 플러그인을 지정합니다.
 
-10. **`yarn.lock`**: This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(Do not change it manually).**
+10. **`yarn.lock`**: 프로젝트를 위해 설치된 npm 의존성의 정확한 버전을 기반으로 자동 생성된 파일입니다. (수동 변경 X!!)
 
-11. **`vite.config.js`**: This file tells [Vite](https://vitejs.dev/) which plugins to use when bundling your code.
+11. **`vite.config.js`**: 이 파일은 [Vite](https://vitejs.dev/)에게 코드 번들링 시 사용할 플러그인을 지정합니다.
 
-12. **`README.md`**: A text file containing useful reference information about the project.
-
-## Contribute
-
-If you encounter an issue with the template, we encourage you to open an issue in this template's repository.
-
-## Learning Storybook
-
-1. Read our introductory tutorial over at [Storybook tutorials](https://storybook.js.org/tutorials/intro-to-storybook/react/en/get-started/).
-2. Learn how to transform your component libraries into design systems in our [Design Systems for Developers](https://storybook.js.org/tutorials/design-systems-for-developers/) tutorial.
-3. See our official documentation at [Storybook](https://storybook.js.org/).
+12. **`README.md`**: 프로젝트에 대한 유용한 참조 정보를 포함하고 있는 텍스트 파일입니다.
