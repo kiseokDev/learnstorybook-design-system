@@ -1,19 +1,44 @@
 import CustomEliceCard from './CustomEliceCard';
-import Youtube from '../assets/youtube.svg';
+import Test from '../assets/test.jpg';
 
 export default {
   title: 'Example/CustomEliceCard',
   component: CustomEliceCard,
   tags: ['autodocs'],
+  parameters: {
+    layout: 'centered',
+  },
+  argTypes: {
+    backgroundColor: { control: 'color' },
+  },
 };
 
 const Template = (args) => <CustomEliceCard {...args} />;
 
 export const BigCard = Template.bind({});
 BigCard.args = {
-  size: 'large',
-  tags: ['LCK', 'T1', 'LPL'],
-  date: '2023. 11. 16',
-  title: '업무 효율을 위한 자동화 툴 추천 3가지',
-  src: { Youtube },
+  cards: [
+    {
+      size: 'large',
+      tags: ['LCK', 'T1', 'LPL'],
+      date: '2023. 11. 16',
+      title: '지속적으로 건강하게 코딩하는법',
+      src: Test,
+      postId: 1,
+    },
+  ],
+};
+
+export const MediumCard = Template.bind({});
+MediumCard.args = {
+  cards: [
+    {
+      size: 'medium',
+      tags: ['LCK', 'T1', 'LPL'],
+      date: '2023. 11. 16',
+      title: '지속적으로 건강하게 코딩하는법',
+      src: Test,
+      postId: 3,
+    },
+  ],
 };
