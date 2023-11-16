@@ -40,7 +40,7 @@ self 엘리스 pre-onboarding
  
 
 ## StoryBook 학습 및 배포
-[StoryBook 보러가기](https://6552e91ed69dbda616e90d9d-uotihsxrwd.chromatic.com/?path=/story/example-customelicebutton--all-buttons&globals=backgrounds.grid:!false;backgrounds.value:!hex(333333))
+[StoryBook 보러가기](https://6552e91ed69dbda616e90d9d-ythzqbvrgk.chromatic.com/?path=/story/example-customelicebutton--all-buttons&globals=backgrounds.value:!hex(333333))
 1. 공통 컴포넌트 UI 확인할 수 있는 stories 제작 
 2. 공통 컴포넌트에 대한 Docs를 제작
 3. 동료들이 확인할 수 있도록 크로마틱에 배포 ( Github Action 활용한 지속적 통합, 배포 )
@@ -49,12 +49,12 @@ self 엘리스 pre-onboarding
 </br>
 
 ## UI만 별도로 리뷰할 수 있어요
-  [현재 빌드된 공통 컴포넌트들 보러가기](https://www.chromatic.com/build?appId=6552e91ed69dbda616e90d9d&number=17)
+  [현재는 UI리뷰는 할수없어요 대신 둘러보기 ㄱㄱ](https://www.chromatic.com/build?appId=6552e91ed69dbda616e90d9d&number=33)
 </br>
 UI 컴포넌트 작업관련 동료직원들이 리뷰할 수 있도록하는 Chromatic 내장 기능 
 <img src="https://github.com/kiseokDev/learnstorybook-design-system/assets/107299502/21ab39a6-66e7-4cdf-bf13-bbfb636ecbac" alt="uitest" width="700em" />
 </br>
-PR 과정에서 관련 동료들이 UI 리뷰를 Accept해야 최종 Merge 할 수 있다.
+PR 과정에서 관련 **모든 동료들이 UI 리뷰를 Accept**해야 최종 Merge 할 수 있다.
 <img src="https://github.com/kiseokDev/learnstorybook-design-system/assets/107299502/095a7323-aac0-43ae-81d8-ae01a7fbaf8c" alt="image" width="700em" />
 
 
