@@ -8,7 +8,9 @@
 self 엘리스 pre-onboarding 
 </h1>
 
-## 🚅 무엇을 위한 repo 인가요?
+## 🚅 무엇을 위한 repo 인가요? </br> #이기석: "5일동안 StoryBook 튜토리얼을 학습하고 만든 결과물 입니다"
+
+
 안녕하세요 **[신입] 프론트엔드 개발자**로 지원한 이기석입니다.
 </br>
 '**나는 엘리스 팀들에게 어떤 팀원이 되야할까?**' 고민했습니다.
@@ -20,19 +22,20 @@ self 엘리스 pre-onboarding
 ![image](https://github.com/kiseokDev/learnstorybook-design-system/assets/107299502/44132a21-71ca-443d-9dad-208f92cf8262)
 ![image](https://github.com/kiseokDev/learnstorybook-design-system/assets/107299502/790edade-5b6b-44e7-85a7-8b7d878aa05e)
 
-이와 같은 정보를 바탕으로 StoryBook을 활용하여 공통 컴포넌트를 제작하는구나 알게 되었습니다. 
+이와 같은 정보를 바탕으로 StoryBook을 활용하여 자체 공통 컴포넌트를 제작하는구나 알게 되었습니다. 
 </br>
-## 4일동안 [StoryBook 튜토리얼](https://storybook.js.org/tutorials/design-systems-for-developers/react/en/introduction/)에서 학습하고 만든 결과물을 공유드립니다
+## 5일동안 [StoryBook 튜토리얼](https://storybook.js.org/tutorials/design-systems-for-developers/react/en/introduction/)에서 학습하고 만든 결과물을 공유드립니다
 
 
-목차
-- [1.개발을 하고 싶어요](#개발을-하고-싶어요)
-- [2.코딩을 잘하고 싶어요](#coding을-잘하고-싶어요)
-
+## 목차
+- [StoryBook 학습 및 배포](#storybook-학습-및-배포)
+- [Chromatic 배포 && npm 자동 릴리스 배포](#chromatic-배포--npm-자동-릴리스-배포)
+- [엘리스 공통 컴포넌트 만들어보기](#엘리스-공통-컴포넌트-만들어보기)
+- [만든 공통 컴포넌트 외부 Web에서 사용해보기](#만든-공통-컴포넌트-외부-web에서-사용해보기)
 
 </br>
 
-StoryBook에 학습하고 만든 결과물을 공유드립니다.
+
 
 
 
@@ -47,12 +50,15 @@ StoryBook에 학습하고 만든 결과물을 공유드립니다.
 
 This template ships with the main React configuration files you'll need to get up and running fast.
  
-## 개발을 하고 싶어요
-1. test
-2. test2
-## Coding을 잘하고 싶어요
-1. test3
-2. test4
+
+## storyBook 학습 및 배포
+1. ㅅㄷㄴㅅ
+2. ㅅㄷㄴㅅ2
+## Chromatic 배포 && npm 자동 릴리스 배포
+1. ㅅㄷㄴㅅ2
+
+
+
 
 
 ## 🚅 Quick start
@@ -123,3 +129,6 @@ A quick look at the top-level files and directories included with this template.
 11. **`vite.config.js`**: 이 파일은 [Vite](https://vitejs.dev/)에게 코드 번들링 시 사용할 플러그인을 지정합니다.
 
 12. **`README.md`**: 프로젝트에 대한 유용한 참조 정보를 포함하고 있는 텍스트 파일입니다.
+
+## 엘리스 공통 컴포넌트 만들어보기
+## 만든 공통 컴포넌트 외부 Web에서 사용해보기 
