@@ -20,11 +20,20 @@ self 엘리스 pre-onboarding
 ![image](https://github.com/kiseokDev/learnstorybook-design-system/assets/107299502/44132a21-71ca-443d-9dad-208f92cf8262)
 ![image](https://github.com/kiseokDev/learnstorybook-design-system/assets/107299502/790edade-5b6b-44e7-85a7-8b7d878aa05e)
 
-다음과 같은 글을 바탕으로 storybook을 미리 학습하고 
+이와 같은 정보를 바탕으로 StoryBook을 활용하여 공통 컴포넌트를 제작하는구나 알게 되었습니다. 
+</br>
+## 4일동안 [StoryBook 튜토리얼](https://storybook.js.org/tutorials/design-systems-for-developers/react/en/introduction/)에서 학습하고 만든 결과물을 공유드립니다
 
-준비 한 것들은 다음과 같습니다.
-1. StoryBook의 Design System을 사용법 익히기
-2. StoryBook의 Design System 
+
+목차
+- [1.개발을 하고 싶어요](#개발을-하고-싶어요)
+- [2.코딩을 잘하고 싶어요](#coding을-잘하고-싶어요)
+
+
+</br>
+
+StoryBook에 학습하고 만든 결과물을 공유드립니다.
+
 
 
 
@@ -37,6 +46,14 @@ self 엘리스 pre-onboarding
 [UI Test를 위한 Chormatic 배포 ](https://www.chromatic.com/build?appId=6552e91ed69dbda616e90d9d&number=17)
 
 This template ships with the main React configuration files you'll need to get up and running fast.
+ 
+## 개발을 하고 싶어요
+1. test
+2. test2
+## Coding을 잘하고 싶어요
+1. test3
+2. test4
+
 
 ## 🚅 Quick start
 
