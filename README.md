@@ -5,14 +5,34 @@
 </p>
 
 <h1 align="center">
-  Chromatic's Design Systems for Developers tutorial template
+self 엘리스 pre-onboarding 
 </h1>
+
+## 🚅 무엇을 위한 repo 인가요?
+안녕하세요 **[신입] 프론트엔드 개발자**로 지원한 이기석입니다.
+</br>
+'**나는 엘리스 팀들에게 어떤 팀원이 되야할까?**' 고민했습니다.
+</br>
+신입 개발자로서 '**스스로**' '**알아서**' '**주도적**' 인 자세가 중요하다고 생각되었습니다. 
+</br>
+그래서 '**미리**' 준비 해봤습니다. 제가 무엇을 노력해야 할지 찾아보았습니다.
+
+![image](https://github.com/kiseokDev/learnstorybook-design-system/assets/107299502/44132a21-71ca-443d-9dad-208f92cf8262)
+![image](https://github.com/kiseokDev/learnstorybook-design-system/assets/107299502/790edade-5b6b-44e7-85a7-8b7d878aa05e)
+
+다음과 같은 글을 바탕으로 storybook을 미리 학습하고 
+
+준비 한 것들은 다음과 같습니다.
+1. StoryBook의 Design System을 사용법 익히기
+2. StoryBook의 Design System 
+
+
 
 [Product Level Web](https://web-app-using-external-design-system-vv97xolo8-kiseokdev.vercel.app/)
 
-[npmjs 패키지 배포](https://www.npmjs.com/package/@dev.leekiseok/elice-storybook)
-
 [협업 동료 및 디자이너와 함께 확인할 수 있도록 storyBook 배포](https://6552e91ed69dbda616e90d9d-uotihsxrwd.chromatic.com/?path=/docs/example-customelicebutton--docs)
+
+[npmjs 패키지 배포](https://www.npmjs.com/package/@dev.leekiseok/elice-storybook)
 
 [UI Test를 위한 Chormatic 배포 ](https://www.chromatic.com/build?appId=6552e91ed69dbda616e90d9d&number=17)
 
