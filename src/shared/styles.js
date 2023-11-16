@@ -55,7 +55,8 @@ export const spacing = {
 
 export const typography = {
   type: {
-    primary: '"Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif',
+    primary:
+      '"Noto Sans KR","Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif',
     code: '"SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace',
   },
   weight: {
