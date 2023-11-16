@@ -32,6 +32,7 @@ self 엘리스 pre-onboarding
 - [Chromatic 배포 && npm 자동 릴리스 배포](#chromatic-배포--npm-자동-릴리스-배포)
 - [엘리스 공통 컴포넌트 만들어보기](#엘리스-공통-컴포넌트-만들어보기)
 - [만든 공통 컴포넌트 외부 Web에서 사용해보기](#만든-공통-컴포넌트-외부-web에서-사용해보기)
+- [🔎 폴더구조](#-폴더구조)
 
 </br>
 
@@ -40,53 +41,19 @@ self 엘리스 pre-onboarding
 
 
 
-[Product Level Web](https://web-app-using-external-design-system-vv97xolo8-kiseokdev.vercel.app/)
-
-[협업 동료 및 디자이너와 함께 확인할 수 있도록 storyBook 배포](https://6552e91ed69dbda616e90d9d-uotihsxrwd.chromatic.com/?path=/docs/example-customelicebutton--docs)
-
-[npmjs 패키지 배포](https://www.npmjs.com/package/@dev.leekiseok/elice-storybook)
-
-[UI Test를 위한 Chormatic 배포 ](https://www.chromatic.com/build?appId=6552e91ed69dbda616e90d9d&number=17)
-
-This template ships with the main React configuration files you'll need to get up and running fast.
  
 
 ## storyBook 학습 및 배포
-1. ㅅㄷㄴㅅ
-2. ㅅㄷㄴㅅ2
+[공통 컴포넌트를 동료들이 확인할 수 있도록 storyBook 배포](https://6552e91ed69dbda616e90d9d-uotihsxrwd.chromatic.com/?path=/docs/example-customelicebutton--docs)
+
 ## Chromatic 배포 && npm 자동 릴리스 배포
-1. ㅅㄷㄴㅅ2
+[UI Test를 위한 Chormatic 배포 url](https://www.chromatic.com/build?appId=6552e91ed69dbda616e90d9d&number=17)
+[npm 자동 릴리스 배포 url](https://www.npmjs.com/package/@dev.leekiseok/elice-storybook)
 
+## 엘리스 공통 컴포넌트 만들어보기
 
-
-
-
-## 🚅 Quick start
-
-1.  **Create the application.**
-
-    Use [degit](https://github.com/Rich-Harris/degit) to get this template.
-
-    ```shell
-    # Clone the template
-    npx degit chromaui/learnstorybook-design-system-template learnstorybook-design-system
-    ```
-
-1.  **Install the dependencies.**
-
-    Navigate into your new site’s directory and install the necessary dependencies.
-
-    ```shell
-    # Navigate to the directory
-    cd learnstorybook-design-system/
-
-    # Install the dependencies
-    yarn
-    ```
-
-1.  **Open the source code and start editing!**
-
-    Open the `learnstorybook-design-system` directory in your code editor of choice and building your first component!
+## 만든 공통 컴포넌트 외부 Web에서 사용해보기 
+[외부 Web](https://web-app-using-external-design-system-vv97xolo8-kiseokdev.vercel.app/)
 
 ## 🔎 폴더구조
 
@@ -130,5 +97,4 @@ A quick look at the top-level files and directories included with this template.
 
 12. **`README.md`**: 프로젝트에 대한 유용한 참조 정보를 포함하고 있는 텍스트 파일입니다.
 
-## 엘리스 공통 컴포넌트 만들어보기
-## 만든 공통 컴포넌트 외부 Web에서 사용해보기 
+
