@@ -2,7 +2,7 @@ import { typography } from '../../shared/styles';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-export const Button = styled.button`
+const Button = styled.button`
   /* 폰트 & 텍스트 */
   font-family: ${typography.type.primary};
   font-weight: 600;
