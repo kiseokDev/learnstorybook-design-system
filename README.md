@@ -44,7 +44,8 @@ self 엘리스 pre-onboarding
  
 
 ## storyBook 학습 및 배포
-[공통 컴포넌트를 동료들이 확인할 수 있도록 storyBook 배포](https://6552e91ed69dbda616e90d9d-uotihsxrwd.chromatic.com/?path=/docs/example-customelicebutton--docs)
+<a href="https://6552e91ed69dbda616e90d9d-uotihsxrwd.chromatic.com/?path=/docs/example-customelicebutton--docs" target="_blank">공통 컴포넌트를 동료들이 확인할 수 있도록 storyBook 배포</a>
+
 
 ## Chromatic 배포 && npm 자동 릴리스 배포
 [UI Test를 위한 Chormatic 배포 url](https://www.chromatic.com/build?appId=6552e91ed69dbda616e90d9d&number=17)
