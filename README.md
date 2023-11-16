@@ -8,12 +8,12 @@
 self 엘리스 pre-onboarding 
 </h1>
 
-## 🚅 무엇을 위한 repo 인가요? </br> #이기석: "5일동안 StoryBook 튜토리얼을 학습하고 만든 결과물 입니다"
+## 🚅 무엇을 위한 repo 인가요? </br> -> StoryBook 튜토리얼을 학습하고 만든 결과물 입니다"
 
 
 안녕하세요 **[신입] 프론트엔드 개발자**로 지원한 이기석입니다.
 </br>
-'**나는 엘리스 팀들에게 어떤 팀원이 되야할까?**' 고민했습니다.
+면접 준비기간 5일동안 '**나는 엘리스 팀들에게 어떤 팀원이 되야할까?**' 고민했습니다.
 </br>
 신입 개발자로서 '**스스로**' '**알아서**' '**주도적**' 인 자세가 중요하다고 생각되었습니다. 
 </br>
@@ -29,36 +29,51 @@ self 엘리스 pre-onboarding
 
 ## 목차
 - [StoryBook 학습 및 배포](#storybook-학습-및-배포)
-- [Chromatic 배포 && npm 자동 릴리스 배포](#chromatic-배포--npm-자동-릴리스-배포)
+- [컴포넌트 UI 리뷰 - UI만 별도로 리뷰할 수 있어요](#ui만-별도로-리뷰할-수-있어요)
+- [npm 자동 릴리스 배포](#npm-자동-릴리스-배포)
 - [엘리스 공통 컴포넌트 만들어보기](#엘리스-공통-컴포넌트-만들어보기)
 - [만든 공통 컴포넌트 외부 Web에서 사용해보기](#만든-공통-컴포넌트-외부-web에서-사용해보기)
 - [🔎 폴더구조](#-폴더구조)
 
 </br>
 
-
-
-
-
-
  
 
-## storyBook 학습 및 배포
-<a href="https://6552e91ed69dbda616e90d9d-uotihsxrwd.chromatic.com/?path=/docs/example-customelicebutton--docs" target="_blank">공통 컴포넌트를 동료들이 확인할 수 있도록 storyBook 배포</a>
+## StoryBook 학습 및 배포
+[StoryBook 보러가기](https://6552e91ed69dbda616e90d9d-uotihsxrwd.chromatic.com/?path=/story/example-customelicebutton--all-buttons&globals=backgrounds.grid:!false;backgrounds.value:!hex(333333))
+1. 공통 컴포넌트 UI 확인할 수 있는 stories 제작 
+2. 공통 컴포넌트에 대한 Docs를 제작
+3. 동료들이 확인할 수 있도록 크로마틱에 배포 ( Github Action 활용한 지속적 통합, 배포 )
+![image](https://github.com/kiseokDev/learnstorybook-design-system/assets/107299502/a89eb08b-1864-4ef6-afd2-ddd0c127afd2)
+
+</br>
+
+## UI만 별도로 리뷰할 수 있어요
+  [현재 빌드된 공통 컴포넌트들 보러가기](https://www.chromatic.com/build?appId=6552e91ed69dbda616e90d9d&number=17)
+</br>
+UI 컴포넌트 작업관련 동료직원들이 리뷰할 수 있도록하는 Chromatic 기능 
+<img src="https://github.com/kiseokDev/learnstorybook-design-system/assets/107299502/21ab39a6-66e7-4cdf-bf13-bbfb636ecbac" alt="uitest" width="700em" />
+</br>
+PR 과정에서 UI 리뷰를 관련 동료들이 Accept해야 모두 통과해야지 Merge 할 수 있다.
+<img src="https://github.com/kiseokDev/learnstorybook-design-system/assets/107299502/095a7323-aac0-43ae-81d8-ae01a7fbaf8c" alt="image" width="700em" />
 
 
-## Chromatic 배포 && npm 자동 릴리스 배포
-[UI Test를 위한 Chormatic 배포 url](https://www.chromatic.com/build?appId=6552e91ed69dbda616e90d9d&number=17)
-[npm 자동 릴리스 배포 url](https://www.npmjs.com/package/@dev.leekiseok/elice-storybook)
+## npm 자동 릴리스 배포
+git push -> npm 패키징 자동 릴리스 배포 (CICD)
+<img src="https://github.com/kiseokDev/learnstorybook-design-system/assets/107299502/e2e3bc94-2406-4aff-8eb6-08cd12dce08c" alt="image" width="700em" />
+</br>
+[npm 배포 보러가기l](https://www.npmjs.com/package/@dev.leekiseok/elice-storybook)
+
 
 ## 엘리스 공통 컴포넌트 만들어보기
+src/stories/CustomEliceButton/EliceButton.jsx
+<img src="https://github.com/kiseokDev/learnstorybook-design-system/assets/107299502/0a576889-f63b-4d64-af0a-72d8dcaacc90" alt="code" width="700em" />
+
 
 ## 만든 공통 컴포넌트 외부 Web에서 사용해보기 
 [외부 Web](https://web-app-using-external-design-system-vv97xolo8-kiseokdev.vercel.app/)
 
 ## 🔎 폴더구조
-
-A quick look at the top-level files and directories included with this template.
 
     .
     ├── node_modules
