@@ -15,7 +15,7 @@ self 엘리스 pre-onboarding
 </br>
 면접 준비기간 5일동안 '**나는 엘리스 팀들에게 어떤 팀원이 되야할까?**' 고민했습니다.
 </br>
-신입 개발자로서 '**스스로**' '**알아서**' '**주도적**' 인 자세가 중요하다고 생각되었습니다. 
+신입 개발자로서 '**스스로**' '**주도적**' 인 자세가 중요하다고 생각되었습니다. 
 </br>
 그래서 '**미리**' 준비 해봤습니다. 제가 무엇을 노력해야 할지 찾아보았습니다.
 
@@ -24,7 +24,7 @@ self 엘리스 pre-onboarding
 
 이와 같은 정보를 바탕으로 StoryBook을 활용하여 자체 공통 컴포넌트를 제작하는구나 알게 되었습니다. 
 </br>
-## 5일동안 [StoryBook 튜토리얼](https://storybook.js.org/tutorials/design-systems-for-developers/react/en/introduction/)에서 학습하고 만든 결과물을 공유드립니다
+## 5일동안 [StoryBook를](https://storybook.js.org/tutorials/design-systems-for-developers/react/en/introduction/)학습하고 만든 결과물을 공유드립니다
 
 
 ## 목차
@@ -51,10 +51,10 @@ self 엘리스 pre-onboarding
 ## UI만 별도로 리뷰할 수 있어요
   [현재 빌드된 공통 컴포넌트들 보러가기](https://www.chromatic.com/build?appId=6552e91ed69dbda616e90d9d&number=17)
 </br>
-UI 컴포넌트 작업관련 동료직원들이 리뷰할 수 있도록하는 Chromatic 기능 
+UI 컴포넌트 작업관련 동료직원들이 리뷰할 수 있도록하는 Chromatic 내장 기능 
 <img src="https://github.com/kiseokDev/learnstorybook-design-system/assets/107299502/21ab39a6-66e7-4cdf-bf13-bbfb636ecbac" alt="uitest" width="700em" />
 </br>
-PR 과정에서 UI 리뷰를 관련 동료들이 Accept해야 모두 통과해야지 Merge 할 수 있다.
+PR 과정에서 관련 동료들이 UI 리뷰를 Accept해야 최종 Merge 할 수 있다.
 <img src="https://github.com/kiseokDev/learnstorybook-design-system/assets/107299502/095a7323-aac0-43ae-81d8-ae01a7fbaf8c" alt="image" width="700em" />
 
 
@@ -62,7 +62,7 @@ PR 과정에서 UI 리뷰를 관련 동료들이 Accept해야 모두 통과해�
 git push -> npm 패키징 자동 릴리스 배포 (CICD)
 <img src="https://github.com/kiseokDev/learnstorybook-design-system/assets/107299502/e2e3bc94-2406-4aff-8eb6-08cd12dce08c" alt="image" width="700em" />
 </br>
-[npm 배포 보러가기l](https://www.npmjs.com/package/@dev.leekiseok/elice-storybook)
+[npm 배포 보러가기](https://www.npmjs.com/package/@dev.leekiseok/elice-storybook?activeTab=code)
 
 
 ## 엘리스 공통 컴포넌트 만들어보기
@@ -71,6 +71,7 @@ src/stories/CustomEliceButton/EliceButton.jsx
 
 
 ## 만든 공통 컴포넌트 외부 Web에서 사용해보기 
+-- 이미지
 [외부 Web](https://web-app-using-external-design-system-vv97xolo8-kiseokdev.vercel.app/)
 
 ## 🔎 폴더구조
