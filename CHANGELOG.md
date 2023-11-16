@@ -1,3 +1,15 @@
+# v0.1.9 (Thu Nov 16 2023)
+
+#### 🐛 Bug Fix
+
+- FIX: CustomEliceButton Bug fix [#6](https://github.com/kiseokDev/learnstorybook-design-system/pull/6) ([@kiseokDev](https://github.com/kiseokDev))
+
+#### Authors: 1
+
+- Kiseok Lee ([@kiseokDev](https://github.com/kiseokDev))
+
+---
+
 # v0.1.8 (Thu Nov 16 2023)
 
 #### 🐛 Bug Fix
