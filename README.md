@@ -96,7 +96,7 @@ src/stories/CustomEliceButton/EliceButton.jsx
 
 
 ## 만든 공통 컴포넌트 외부 Web에서 사용해보기 
-### [이제 공통 컴포넌트를 개인 production 에서 사용가능!](https://web-app-using-external-design-system-vv97xolo8-kiseokdev.vercel.app/)
+### [이제 공통 컴포넌트를 개인 production 에서 사용가능!<--보러가기](https://web-app-using-external-design-system-i5jue7b23-kiseokdev.vercel.app/)
 
 라이브러리를 사용할 곳에서 yarn add @.../learnstory 이런식으로 릴리즈한 패키지를 의존성 파일에 추가시킨 후 사용
 
@@ -105,6 +105,15 @@ src/stories/CustomEliceButton/EliceButton.jsx
 ![image](https://github.com/kiseokDev/learnstorybook-design-system/assets/107299502/396d1111-2c74-42eb-9f6a-c8921d2f0cdf)
 
 <img src="https://github.com/kiseokDev/learnstorybook-design-system/assets/107299502/f87e1dc5-2d7a-47c4-a0ab-72841ded1d51" alt="import" width="500em" />
+
+
+## 느낀점 
+
+StoryBook을 활용하여 공통 컴포넌트를 제작하고 npmjs에 패키지를 게시하는 과정을 배웠습니다. StoryBook은 컴포넌트 개발과 테스트, 문서화에 매우 유용한 도구입니다. 또한, chromatic을 통해 시각적인 변경 사항을 자동으로 확인하고, npmjs를 통해 컴포넌트를 공유할 수 있게 되었습니다. 이를 통해 개발자들과 협업하고 재사용 가능한 컴포넌트를 만들 수 있다는 사실이 흥미롭고 재밌었습니다.
+
+또한, 컴포넌트 디자인 시스템과 일관성을 유지하며 개발할 수 있는 장점을 발견했습니다. StoryBook을 통해 다양한 상태와 속성을 시뮬레이션하고 컴포넌트를 테스트할 수 있으며, Addon을 활용하여 컴포넌트의 동작을 시각화하고 디버깅할 수 있습니다. 이러한 기능들은 개발 과정에서 큰 도움과 더불어, 컴포넌트 개발에 있어서 효율성을 높일 수 있구나 라는 것을 알게 되었습니다. 
+
+앞으로는 컴포넌트 디자인 시스템 구축 팁과 npm 패키징 시 어려움 등에 대해 자세히 작성하고, StoryBook과 chromatic을 활용한 컴포넌트 시각화와 테스트, addon을 활용한 동작 디버깅 예제, 컴포넌트 UI 테스트 코드 예제, 그리고 StoryBook을 사용한 컴포넌트 문서화와 예제 제공에 대해 추가로 다룰 예정입니다.
 
 ## 🔎 폴더구조
 
