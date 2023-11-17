@@ -28,8 +28,10 @@ self 엘리스 pre-onboarding
 
 
 ## 목차
-- [StoryBook 학습 및 배포](#storybook-학습-및-배포)
-- [컴포넌트 UI 리뷰 - UI만 별도로 리뷰할 수 있어요](#ui만-별도로-리뷰할-수-있어요)
+
+- [StoryBook이란 ?](#storybook이란-)
+- [StoryBook 배포, 컴포넌트 디자인 시스템 구축하기](#컴포넌트-디자인-시스템-구축하기)
+- [모두가 함께하는 UI 리뷰](#모두가-함께-하는-ui-리뷰)
 - [npm 자동 릴리스 배포](#npm-자동-릴리스-배포)
 - [엘리스 공통 컴포넌트 만들어보기](#엘리스-공통-컴포넌트-만들어보기)
 - [만든 공통 컴포넌트 외부 Web에서 사용해보기](#만든-공통-컴포넌트-외부-web에서-사용해보기)
@@ -37,10 +39,27 @@ self 엘리스 pre-onboarding
 
 </br>
 
- 
+## StoryBook이란 ?
 
-## StoryBook 학습 및 배포
-[StoryBook 보러가기](https://6552e91ed69dbda616e90d9d-ythzqbvrgk.chromatic.com/?path=/story/example-customelicebutton--all-buttons&globals=backgrounds.value:!hex(333333))
+StoryBook은 컴포넌트를 개발하고 문서화하며 시각적으로 확인하고 테스트할 수 있는 도구입니다. 이 도구를 사용하면 컴포넌트의 다양한 상태와 속성을 시뮬레이션하고 기능을 시각화하여 디버깅할 수 있습니다. 또한, chromatic을 통해 컴포넌트의 시각적인 변경 사항을 자동으로 확인하고 npmjs에 패키지를 게시하여 재사용 가능한 컴포넌트를 제공할 수 있습니다. StoryBook은 컴포넌트 개발을 위한 디자인 시스템과 일관성을 유지하는 데에도 도움이 됩니다.
+
+### StoryBook의 이점
+ 1. **Storybook**을 사용하여 컴포넌트를 개발하고 시각적으로 확인할 수 있습니다.
+
+ 2. **chromatic**을 사용하여 컴포넌트의 시각적인 변경 사항을  자동으로 스토리북과 비교합니다.
+
+ 3. **npmjs**에 패키지를 게시하여 다른 개발자들이 재사용할 수 있게 합니다.
+
+ 4. Storybook을 사용하여 컴포넌트를 문서화하고 예제와 함께 제공할 수 있습니다.
+
+ 5. Storybook을 통해 다양한 상태와 속성을 시뮬레이션하여 컴포넌트를 테스트할 수 있습니다.
+
+ 6. Storybook의 Addon을 활용하여 컴포넌트의 동작을 시각화하고 디버깅할 수 있습니다.
+
+ 7. 컴포넌트의 디자인 시스템과 일관성을 유지하며 개발할 수 있습니다.
+
+## 컴포넌트 디자인 시스템 구축하기
+[StoryBook 보러가기](https://6552e91ed69dbda616e90d9d-ythzqbvrgk.chromatic.com/?path=/story/example-customelicebutton--all-buttons&globals=backgrounds.value:!hex(F8F8F8))
 1. 공통 컴포넌트 UI 확인할 수 있는 stories 제작 
 2. 공통 컴포넌트에 대한 Docs를 제작
 3. 동료들이 확인할 수 있도록 크로마틱에 배포 ( Github Action 활용한 지속적 통합, 배포 )
@@ -48,8 +67,8 @@ self 엘리스 pre-onboarding
 
 </br>
 
-## UI만 별도로 리뷰할 수 있어요
-  [현재는 UI리뷰는 할수없어요 대신 둘러보기 ㄱㄱ](https://www.chromatic.com/build?appId=6552e91ed69dbda616e90d9d&number=33)
+## 모두가 함께 하는 UI 리뷰
+  [현재는 배포되었기 때문에 UI리뷰는 볼 수 없어요 대신 둘러보기 ㄱㄱ](https://www.chromatic.com/build?appId=6552e91ed69dbda616e90d9d&number=33)
 </br>
 UI 컴포넌트 작업관련 동료직원들이 리뷰할 수 있도록하는 Chromatic 내장 기능 
 <img src="https://github.com/kiseokDev/learnstorybook-design-system/assets/107299502/21ab39a6-66e7-4cdf-bf13-bbfb636ecbac" alt="uitest" width="700em" />
@@ -66,6 +85,8 @@ git push -> npm 패키징 자동 릴리스 배포 (CICD)
 
 
 ## 엘리스 공통 컴포넌트 만들어보기
+백문견 불여일코 : 백 번 듣는 것이 한 번 코딩하는 것만 못하다
+</br>
 src/stories/CustomEliceButton/EliceButton.jsx
 <img src="https://github.com/kiseokDev/learnstorybook-design-system/assets/107299502/0a576889-f63b-4d64-af0a-72d8dcaacc90" alt="code" width="700em" />
 
