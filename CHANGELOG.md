@@ -1,3 +1,15 @@
+# v0.1.24 (Fri Nov 17 2023)
+
+#### 🐛 Bug Fix
+
+- Elice card component [#9](https://github.com/kiseokDev/learnstorybook-design-system/pull/9) ([@kiseokDev](https://github.com/kiseokDev))
+
+#### Authors: 1
+
+- Kiseok Lee ([@kiseokDev](https://github.com/kiseokDev))
+
+---
+
 # v0.1.23 (Fri Nov 17 2023)
 
 #### ⚠️ Pushed to `main`
