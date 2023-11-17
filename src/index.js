@@ -13,3 +13,4 @@ export * from './Link';
 export * from './LinkWrapper';
 
 export * from './stories/CustomEliceButton';
+export * from './stories/CustomEliceCard';
