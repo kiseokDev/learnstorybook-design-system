@@ -1,3 +1,15 @@
+# v0.1.23 (Fri Nov 17 2023)
+
+#### ⚠️ Pushed to `main`
+
+- Update README.md ([@kiseokDev](https://github.com/kiseokDev))
+
+#### Authors: 1
+
+- Kiseok Lee ([@kiseokDev](https://github.com/kiseokDev))
+
+---
+
 # v0.1.22 (Thu Nov 16 2023)
 
 #### ⚠️ Pushed to `main`
