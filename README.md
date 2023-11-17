@@ -31,8 +31,8 @@ self 엘리스 pre-onboarding
 
 - [StoryBook이란 ?](#storybook이란-)
 - [StoryBook 배포, 컴포넌트 디자인 시스템 구축하기](#컴포넌트-디자인-시스템-구축하기)
-- [모두가 함께하는 UI 리뷰](#모두가-함께-하는-ui-리뷰)
 - [npm 자동 릴리스 배포](#npm-자동-릴리스-배포)
+- [모두가 함께하는 UI 리뷰](#모두가-함께-하는-ui-리뷰)
 - [엘리스 공통 컴포넌트 만들어보기](#엘리스-공통-컴포넌트-만들어보기)
 - [만든 공통 컴포넌트 외부 Web에서 사용해보기](#만든-공통-컴포넌트-외부-web에서-사용해보기)
 - [🔎 폴더구조](#-폴더구조)
@@ -59,13 +59,19 @@ StoryBook은 컴포넌트를 개발하고 문서화하며 시각적으로 확인
  7. 컴포넌트의 디자인 시스템과 일관성을 유지하며 개발할 수 있습니다.
 
 ## 컴포넌트 디자인 시스템 구축하기
-[StoryBook 보러가기](https://6552e91ed69dbda616e90d9d-ythzqbvrgk.chromatic.com/?path=/story/example-customelicebutton--all-buttons&globals=backgrounds.value:!hex(F8F8F8))
+[StoryBook 보러가기](https://6552e91ed69dbda616e90d9d-apqaxybgwp.chromatic.com/?path=/docs/example-customelicebutton--docs)
 1. 공통 컴포넌트 UI 확인할 수 있는 stories 제작 
 2. 공통 컴포넌트에 대한 Docs를 제작
 3. 동료들이 확인할 수 있도록 크로마틱에 배포 ( Github Action 활용한 지속적 통합, 배포 )
 ![image](https://github.com/kiseokDev/learnstorybook-design-system/assets/107299502/a89eb08b-1864-4ef6-afd2-ddd0c127afd2)
 
 </br>
+
+## npm 자동 릴리스 배포
+git push -> npm 패키징 자동 릴리스 배포 (CICD)
+<img src="https://github.com/kiseokDev/learnstorybook-design-system/assets/107299502/e2e3bc94-2406-4aff-8eb6-08cd12dce08c" alt="image" width="700em" />
+</br>
+[npm 배포 보러가기](https://www.npmjs.com/package/@dev.leekiseok/elice-storybook?activeTab=code)
 
 ## 모두가 함께 하는 UI 리뷰
   [현재는 배포되었기 때문에 UI리뷰는 볼 수 없어요 대신 둘러보기 ㄱㄱ](https://www.chromatic.com/build?appId=6552e91ed69dbda616e90d9d&number=33)
@@ -77,23 +83,28 @@ PR 과정에서 관련 **모든 동료들이 UI 리뷰를 Accept**해야 최종 
 <img src="https://github.com/kiseokDev/learnstorybook-design-system/assets/107299502/095a7323-aac0-43ae-81d8-ae01a7fbaf8c" alt="image" width="700em" />
 
 
-## npm 자동 릴리스 배포
-git push -> npm 패키징 자동 릴리스 배포 (CICD)
-<img src="https://github.com/kiseokDev/learnstorybook-design-system/assets/107299502/e2e3bc94-2406-4aff-8eb6-08cd12dce08c" alt="image" width="700em" />
-</br>
-[npm 배포 보러가기](https://www.npmjs.com/package/@dev.leekiseok/elice-storybook?activeTab=code)
-
 
 ## 엘리스 공통 컴포넌트 만들어보기
 백문견 불여일코 : 백 번 듣는 것이 한 번 코딩하는 것만 못하다
 </br>
 src/stories/CustomEliceButton/EliceButton.jsx
-<img src="https://github.com/kiseokDev/learnstorybook-design-system/assets/107299502/0a576889-f63b-4d64-af0a-72d8dcaacc90" alt="code" width="700em" />
+</br>
+
+<img src="https://github.com/kiseokDev/learnstorybook-design-system/assets/107299502/a7a8431f-9f65-4c48-83fe-13ad549da335" alt="code" width="500em" />
+<img src="https://github.com/kiseokDev/learnstorybook-design-system/assets/107299502/0a576889-f63b-4d64-af0a-72d8dcaacc90" alt="code" width="500em" />
+
 
 
 ## 만든 공통 컴포넌트 외부 Web에서 사용해보기 
--- 이미지
-[외부 Web](https://web-app-using-external-design-system-vv97xolo8-kiseokdev.vercel.app/)
+### [이제 공통 컴포넌트를 개인 production 에서 사용가능!](https://web-app-using-external-design-system-vv97xolo8-kiseokdev.vercel.app/)
+
+라이브러리를 사용할 곳에서 yarn add @.../learnstory 이런식으로 릴리즈한 패키지를 의존성 파일에 추가시킨 후 사용
+
+</br>
+
+![image](https://github.com/kiseokDev/learnstorybook-design-system/assets/107299502/396d1111-2c74-42eb-9f6a-c8921d2f0cdf)
+
+<img src="https://github.com/kiseokDev/learnstorybook-design-system/assets/107299502/f87e1dc5-2d7a-47c4-a0ab-72841ded1d51" alt="import" width="500em" />
 
 ## 🔎 폴더구조
 
